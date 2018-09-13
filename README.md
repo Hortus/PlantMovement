@@ -8,7 +8,7 @@ The progression recommended here mirrors the one outlined in the paper's methods
 
 1) fieldmap_readme.xls contains the field layout at panel 5 in planting date 2 (the sample video provided)
 2) The plotfinder script and associated files are in the plotfinder directory.   
-3) Open plotfinder_published.m in MATLAB and set the current folder to "plotfinder".  plotfinder_published.m will require the following files in the current directory to execute:
+3) Download the Plotfinder repository. Open plotfinder_published.m in MATLAB and set the current folder to the downloaded Plotfinder repository.  plotfinder_published.m will require the following files in the current directory to execute:
 
 	frame1.tiff;
 	redmask.m (red square masking function);
@@ -28,7 +28,7 @@ The progression recommended here mirrors the one outlined in the paper's methods
 	FLY07_12_17_p2.mp4 (University of Minnesota DRUM link);
 	red.m
 	
-6) Navigate to the "MovementSignalProcessing" directory to process the normalized waveforms from each plot.  The outputted FLY07_12_17_p2.txt from step 5 is provided along with four other .txt files containing the normalized waveforms at panel 5 for the four other video dates examined in the paper.  Execute bandpassParse_p2.m in Matlab, which will output a subdirectory of plot-specific.txt files for each .txt file of normalized waveforms that is inputted. bandpassParse_p2.m requires the following files to execute:
+6) Download the MovementSignalProcessing repository. In Matlab, navigate to the "MovementSignalProcessing" directory to process the normalized waveforms from each plot.  The outputted FLY07_12_17_p2.txt from step 5 is provided along with four other .txt files containing the normalized waveforms at panel 5 for the four other video dates examined in the paper.  Execute bandpassParse_p2.m in Matlab, which will output a subdirectory of plot-specific.txt files for each .txt file of normalized waveforms that is inputted. bandpassParse_p2.m requires the following files to execute:
 
 	FLY07_10_17_p2.txt;
 	FLY07_11_17_p2.txt;
