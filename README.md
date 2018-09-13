@@ -2,6 +2,7 @@
 
 README file accompanying supplemental files to "Quantifying crop Movement outdoors through Hemispherical Video Analysis of Agricultural Plots"
 By Alexander Susko
+Matlab scripts must be executed in Matlab v2016b or later.
 
 The progression recommended here mirrors the one outlined in the paper's methods section.
 
