@@ -25,7 +25,7 @@ The progression recommended here mirrors the one outlined in the paper's methods
 4) I've provided the cropped images (square foot regions) and their cropping functions the "croppedimages" and "croppingfunctions" subdirectories from a previous execution.  If you re execute plotfinder_published.m, the images and cropping functions will be outputted to the "plotfinder" directory.  
 5) Execute FLY07_12_17_p2.m in the "plotfinder" directory to analyze the color changes over the demarcated plot regions of the 360 video. This script will output the normalized color waveforms in .txt file named FLY07_12_17_p2.txt. This file has been provided in the "plotfinder" directory from a previous execution.  FLY07_12_17_p2.m will require the following files in the current directory to execute:
 
-	FLY07_12_17_p2.mp4 (University of Minnesota DRUM link);
+	FLY07_12_17_p2.mp4 (available at https://doi.org/10.13020/D6BT49);
 	red.m
 	
 6) Download the MovementSignalProcessing repository. In Matlab, navigate to the "MovementSignalProcessing" directory to process the normalized waveforms from each plot.  The outputted FLY07_12_17_p2.txt from step 5 is provided along with four other .txt files containing the normalized waveforms at panel 5 for the four other video dates examined in the paper.  Execute bandpassParse_p2.m in Matlab, which will output a subdirectory of plot-specific.txt files for each .txt file of normalized waveforms that is inputted. bandpassParse_p2.m requires the following files to execute:
